@@ -1,0 +1,11 @@
+$strSQL = "UPDATE carreserve SET ";
+$strSQL .="date = '".$_post["date"]."' ";
+$strSQL .=",month = '".$_post["month"]."' ";
+$strSQL .=",time = '".$_post["time"]."' ";
+$strSQL .=",whoneed = '".$_post["whoneed"]."' ";
+$strSQL .=",desti = '".$_post["desti"]."' ";
+$strSQL .=",activity = '".$_post["activity"]."' ";
+$strSQL .=",carid = '".$_post["carid"]."' ";
+$strSQL .=",driver = '".$_post["driver"]."' ";
+$strSQL .=",etc = '".$_post["etc"]."' ";
+$strSQL .="WHERE idd = '".$_get["id"]."' ";
